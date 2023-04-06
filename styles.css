@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.left-side {
+    background-image: url(./waterfall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-text {
+    width: 100%;
+    background-color: rgba(42, 42, 42, 0.7);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.left-credit {
+    color:white;
+}
+
+.right-side {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+}
+.right-top,
+.right-bottom {
+    
+    width: 100%;
+}
+
+form {
+    width: 70%;
+    border: black solid 1px;
+    box-shadow: 5px 5px 10px;
+    background-color: white;
+}
