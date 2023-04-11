@@ -62,7 +62,7 @@ body {
     padding-top: 40px;
 }
 
-form {
+.form-area {
     width: 90%;
     border: black solid 1px;
     border-radius: 10px;
@@ -74,9 +74,15 @@ form {
 }
 
 #form-header {
-    margin-bottom: 40px;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.required {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    color: gray;
 }
 
 .inner-form {
@@ -86,7 +92,7 @@ form {
 }
 
 .form-item {
-    padding-bottom: 2.5em;
+    padding-bottom: 2.5rem;
     height: 25px;
 }
 
@@ -115,13 +121,21 @@ label {
 button {
     margin-bottom: 20px;
     padding: 15px 20px;
-    background-color: rgb(0, 91, 57);
+    background-color: rgb(1, 102, 65);
+    border: 1px solid rgb(0, 36, 23);
     color: white;
     font-weight: bold;
     font-size: 20px;
     border-radius: 10px;
 }
 
+button:hover {
+    background-color: rgba(0, 91, 58, 0.712);
+    border: 2px solid black;
+}
+
 a {
     color: rgb(0, 91, 57);
     text-decoration: none;
+}
+
