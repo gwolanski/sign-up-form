@@ -31,9 +31,8 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Cinzel Decorative', cursive;
-    padding-top: 10px;
-    padding: 20px 0;
-    margin-top: 120px;
+    padding: 1.5rem 0;
+    margin-top: 7.4rem;
 }
 
 .left-credit {
@@ -47,19 +46,19 @@ body {
     background-color: rgb(218, 218, 218);
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0 1.5rem;
     font-family: 'Averia Serif Libre', sans-serif;
 }
 .right-top,
 .right-bottom {
     width: 100%;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .right-top {
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
 
 .form-area {
@@ -68,9 +67,9 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
     background-color: white;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 #form-header {
@@ -92,40 +91,47 @@ body {
 }
 
 .form-item {
-    padding-bottom: 2.5rem;
-    height: 25px;
+    padding-bottom: 2.7rem;
+    height: 1.5rem;
 }
 
 input,
 label {
     display: block;
     width: 50%;
-    font-size: 14px;
+    font-size: .9rem;
 }
 
 input {
     border: 1px solid rgb(195, 195, 195);
     border-radius: 5px;
-    padding: 5px;
+    padding: .3rem;
 }
 
 input:focus {
+    outline: none;
     box-shadow: 3px 3px 5px rgb(0, 91, 57);
-    border: 1px solid rgb(0, 162, 255);
+    border: 1.5px solid rgb(0, 91, 57);
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+    box-shadow: 3px 3px 5px rgb(176, 0, 0);
 }
 
 label {
-    padding-bottom: 5px;
+    padding-bottom: 0.3rem;
 }
 
 button {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
     padding: 15px 20px;
     background-color: rgb(1, 102, 65);
     border: 1px solid rgb(0, 36, 23);
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
     border-radius: 10px;
 }
 
@@ -137,5 +143,9 @@ button:hover {
 a {
     color: rgb(0, 91, 57);
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 

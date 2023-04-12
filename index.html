@@ -25,7 +25,7 @@
                     <div class="inner-form">
                         <div class="form-item">
                             <label for="first_name">FIRST NAME:*</label>
-                            <input type="text" id="first_name" name="first_name" required>
+                            <input type="text" id="first_name" name="first_name" minlength="2" required>
                         </div>
                         <div class="form-item">
                             <label for="last_name">LAST NAME:*</label>
@@ -41,18 +41,17 @@
                         </div>
                         <div class="form-item">
                             <label for="password">PASSWORD:*</label>
-                            <input type="password" id="password" name="password" required>
+                            <input type="password" id="password" name="password" minlength="4" required>
                         </div>
                         <div class="form-item">
                             <label for="password_confirm">CONFIRM PASSWORD:*</label>
-                            <input type="password" id="password_confirm" name="password_confirm" required>
+                            <input type="password" id="password_confirm" name="password_confirm" minlength="4" required>
                         </div>
                     </div>
                 </div>
                 <button type="submit">Create Account</button>
             </form>
             <div class="right-bottom">
-                
                 <div>Already have an account? <a href="http://" style="display:inline-block">Login</a></div>     
             </div>
  
